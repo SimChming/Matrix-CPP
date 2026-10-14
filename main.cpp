@@ -58,14 +58,6 @@ class Matrix{
         }
 };
 
-bool operator!= (Shape A, Shape B){
-    return (A.first==B.first)&&(A.second==B.second) ? 0 : 1;
-}
-
-bool operator== (Shape A, Shape B){
-    return !(A!=B);
-}
-
 Matrix operator+ (Matrix A, Matrix B){
     Matrix C;
     C.reshape(A.getshape());
