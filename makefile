@@ -4,4 +4,4 @@ LDFLAGS		:=
 TARGET		:= build/app.exe
 
 SRCS		:= 	$(wildcard src/*.cpp)
-OBJS		:= $(patsubst src/%.cpp, build/%.o, $(SRCS))
+OBJS		:= $(SRCS:src/%.cpp=build/%.o)
