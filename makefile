@@ -1,5 +1,5 @@
 CXX			:= g++
-cxxFLAGS	:= -std=c++17 -Wall -Wextra -Iinclude -O2
+cxxFLAGS	:= -std=c++17                -Wall -Wextra -Iinclude -O2
 LDFLAGS		:=
 TARGET		:= build/app.exe
 
