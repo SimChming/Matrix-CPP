@@ -58,6 +58,7 @@ class Matrix{
         }
 };
 
+
 Matrix operator+ (Matrix A, Matrix B){
     Matrix C;
     C.reshape(A.getshape());
